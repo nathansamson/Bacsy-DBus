@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<node name="/org/acsy">
+	<interface name="org.bacsy.Server">
+		<method name="Stores">
+			<arg type="as" name="targets" direction="out" />
+		</method>
+	</interface>
+	
+	<interface name="org.bacsy.Client">
+		<method name="Sources">
+			<arg type="as" name="sources" direction="out" />
+		</method>
+	</interface>
+</node>
